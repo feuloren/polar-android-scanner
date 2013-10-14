@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:focusable="true" android:focusableInTouchMode="true">
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/success" android:paddingTop="10dp" android:paddingBottom="10dp"
+            android:gravity="center" android:autoText="false" android:background="#0bcb00"
+            android:visibility="gone"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/warning"
+              android:paddingTop="10dp" android:paddingBottom="10dp"
+              android:gravity="center" android:autoText="false" android:background="#cb9e20"
+              android:layout_gravity="right|center_vertical" android:visibility="gone"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/wait"
+              android:paddingTop="10dp" android:paddingBottom="10dp"
+              android:gravity="center" android:autoText="false" android:background="#dce6f8"
+              android:layout_gravity="right|center_vertical" android:visibility="gone" android:text="@string/wait"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/invalide"
+              android:paddingTop="10dp" android:paddingBottom="10dp"
+              android:gravity="center" android:autoText="false" android:background="#f82800"
+              android:layout_gravity="right|center_vertical" android:visibility="gone"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scan_button_description"
+            android:id="@+id/scan_button" android:layout_gravity="center"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/nom_description"
+            android:layout_gravity="left|center_vertical" android:paddingTop="40dp"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/query" android:layout_gravity="center"
+            android:hint="@string/nom_etudiant_hint" android:focusable="true" android:focusableInTouchMode="true"
+            android:selectAllOnFocus="true"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go_button_description"
+            android:id="@+id/go_button" android:layout_gravity="center"/>
+</LinearLayout>

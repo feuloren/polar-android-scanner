@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scan_button_description">Scanner un ticket</string>
+    <string name="nom_description">Ou saisir le numéro de commande, le nom ou le mail</string>
+    <string name="nom_etudiant_hint">Info au choix</string>
+    <string name="go_button_description">Go !</string>
+    <string name="succes_string">Succès !</string>
+    <string name="activity_name_format">Scan en tant que %s</string>
+    <string name="wait">Merci de patienter</string>
+    <string name="choose_commande">Choisir la commande</string>
+</resources>

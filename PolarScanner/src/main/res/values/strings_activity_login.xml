@@ -1,0 +1,27 @@
+<resources>
+    
+    <!-- Strings related to login -->
+    <string name="prompt_login">Login</string>
+
+    <string name="action_sign_in_register">Commencer</string>
+
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="action_parametres_button">Paramètres</string>
+
+    <string name="login_progress_signing_in">Connexion&#8230;</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="no_wifi">Pas de connexion wifi</string>
+    <string name="no_wifi_message">Le wifi n\'est pas activé.
+        Selon votre configuration une connexion wifi peut être nécessaire.
+    </string>
+    <string name="no_wifi_back">Retour</string>
+    <string name="no_wifi_params">Paramètres</string>
+    <string name="no_network">Pas de connexion réseau</string>
+    <string name="no_network_message">Aucune connexion réseau, merci d\'activer le wifi ou la 3G</string>
+    <string name="no_network_quit">Quitter</string>
+
+</resources>

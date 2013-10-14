@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="server_url_description">URL du serveur</string>
+    <string name="server_port_description">Port du serveur web</string>
+    <string name="parametres_enregistres_msg">Paramètres enregistrés !</string>
+</resources>
